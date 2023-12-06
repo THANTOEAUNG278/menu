@@ -1,0 +1,56 @@
+body{
+  background-color: aqua;
+  color: red;
+}
+.container{
+  max-width: 1000px;
+  margin-top: 100px;
+  background-color: blue;
+  position: relative;
+}
+.men-container{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu{
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+.line-1, .line-2, .line-3, .laymenu{
+  transition: all .5s ease;
+}
+
+.hightline2{
+  opacity: 0;
+}
+.roateplus{
+  transform: rotate(45deg) translate(4px,9px);
+}
+.roate-{
+  transform: rotate(-45deg) translate(4px ,-9px);
+}
+.laymenu{
+  width: 100vw;
+  height: 100vh;background-color: rgb(215, 28, 140);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showMenu{
+  opacity: 1;
+}
+li{
+  list-style: none;
+  color: #fff;
+  font-size: 35px;
+}
